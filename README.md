@@ -7,4 +7,4 @@ Run serverad.py this will start Federated Learning based on initial parameters (
 
 Then run client files. I am using my own model but you can use any other model such as "convnet".
 
-after each federated round accuracy of global model(on serverad.py) will start improving. You can tinker with parameters as per your requirement
+After each federated round accuracy of global model(on serverad.py) will start improving. You can tinker with parameters as per your requirement
