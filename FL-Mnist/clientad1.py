@@ -95,11 +95,9 @@ def load_partition():
     
 
     (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
-    from numpy import genfromtxt
-    my_data = genfromtxt('client1.csv', delimiter=',')
     
     x_train=x_train[:5000]
-    y_train=my_data
+    y_train=y_train[:5000]
    
     x_test=x_test[:1000]
     y_test=y_test[:1000]
